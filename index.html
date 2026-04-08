@@ -712,56 +712,7 @@
             color: white;
             transform: translateY(-3px);
         }
-        
-        /* Projects */
-        .project-card {
-            background: white;
-            border-radius: 12px;
-            padding: 2rem;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            transition: var(--transition);
-            border-top: 4px solid var(--secondary);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .project-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 0;
-            background: linear-gradient(to bottom, var(--secondary), transparent);
-            opacity: 0.1;
-            transition: var(--transition);
-            z-index: 0;
-        }
-        
-        .project-card:hover::before {
-            height: 100%;
-        }
-        
-        .project-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-        }
-        
-        .project-card h3 {
-            color: var(--primary);
-            margin-bottom: 1.2rem;
-            font-size: 1.4rem;
-            position: relative;
-            z-index: 1;
-        }
-        
-        .project-card p {
-            color: #666;
-            margin-bottom: 1.5rem;
-            position: relative;
-            z-index: 1;
-        }
-        
+       
         .tech-badge {
             display: inline-block;
             background: var(--light);
@@ -1411,7 +1362,7 @@
                 <li><a href="#progress">Achievements</a></li>
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#education">Education</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#progress">Achievements</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -2047,14 +1998,13 @@
     <!-- Progress, Achievements & Key Expertise -->
     <section id="progress">
         <div class="container">
-            <h2 class="section-title animated">Progress, Achievements & Core Expertise</h2>
+            <h2 class="section-title animated">Achievements & Core Expertise</h2>
             <div class="achievements-grid">
                 <div class="achievement-card animated">
                     <div class="achievement-icon"><i class="fas fa-cubes"></i></div>
                     <div class="achievement-badge">#1</div>
                     <h3>ELK Stack Self-Managed Cluster</h3>
                     <p>Built, configured, and implemented ELK stack with all components, self-managed clustering, and end-to-end security across production environments. Designed indexing, mappings, and ILM for efficient storage with optimized search performance and scalability.</p>
-                    <div class="tech-badge-group"><span class="tech-badge">Elasticsearch</span><span class="tech-badge">Logstash</span><span class="tech-badge">Kibana</span><span class="tech-badge">Filebeat</span><span class="tech-badge">Self-Managed</span></div>
                 </div>
                 <div class="achievement-card animated">
                     <div class="achievement-icon"><i class="fas fa-certificate"></i></div>
@@ -2067,7 +2017,6 @@
                     <div class="achievement-badge">#3</div>
                     <h3>Centralized Logs Management</h3>
                     <p>Centralized logs to facilitate technical & business issue troubleshooting, reducing mean time to resolution (MTTR). Developed and maintained data ingestion pipelines using Logstash, Beats, and API integrations.</p>
-                    <div class="tech-badge-group"><span class="tech-badge">Logstash</span><span class="tech-badge">Beats</span><span class="tech-badge">API Integration</span><span class="tech-badge">Message Queues</span></div>
                 </div>
                 <div class="achievement-card animated">
                     <div class="achievement-icon"><i class="fas fa-bell"></i></div>
@@ -2080,7 +2029,6 @@
                     <div class="achievement-badge">#5</div>
                     <h3>Custom Kibana/Grafana Dashboards</h3>
                     <p>Developed custom UX dashboards for managing critical systems, observing abnormal behavior, and monitoring components closely. Created real-time visualizations for KPIs, alerting, and reporting.</p>
-                    <div class="tech-badge-group"><span class="tech-badge">Kibana</span><span class="tech-badge">Grafana</span><span class="tech-badge">Visualization</span><span class="tech-badge">Dashboarding</span></div>
                 </div>
                 <div class="achievement-card animated">
                     <div class="achievement-icon"><i class="fas fa-plug"></i></div>
@@ -2099,7 +2047,6 @@
                     <div class="achievement-badge">#8</div>
                     <h3>HLD/LLD Documentation & Architecture</h3>
                     <p>Architected end-to-end monitoring solutions with High/Low-Level Design docs aligned to technical & business monitoring needs. Defined data flows, retention policies, cluster sizing, and cost-optimization strategies.</p>
-                    <div class="tech-badge-group"><span class="tech-badge">Solution Architecture</span><span class="tech-badge">HLD/LLD</span><span class="tech-badge">Capacity Planning</span></div>
                 </div>
                 <div class="achievement-card animated">
                     <div class="achievement-icon"><i class="fas fa-eye"></i></div>
